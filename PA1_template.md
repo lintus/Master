@@ -129,7 +129,7 @@ cat("Total ", count, "NA values were filled.\r")
 
 ```r
 totalSteps2 <- aggregate(steps ~ date, data = activityFilled, sum)
-hist(totalSteps2$steps, xlab = "Total steps per day", main = "Histogram of Total Steps per Day without missing values")
+hist(totalSteps2$steps, xlab = "Total steps per day", main = "Histogram of Total Steps per Day")
 ```
 
 ![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10.png) 
