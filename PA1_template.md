@@ -5,7 +5,7 @@ Loading the data
 * Load the data
 
 ```r
-activity_data <- read.csv("C:/Users//khalidm/Documents//activity.csv")
+activity_data<-read.csv("D://Coursera//activity.csv")
 ```
 
 * Process/transform the data (if necessary) into a format suitable for your analysis
@@ -121,7 +121,8 @@ cat("Total ", count, "NA values were filled.\r")
 ```
 
 ```
-## Total  2304 NA values were filled.
+## Total  2304 NA values were filled.
+
 ```
 
 
